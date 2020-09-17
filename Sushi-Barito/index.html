@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sushi Barito</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://kit.fontawesome.com/e82c049e34.js" crossorigin="anonymous"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand"><img src="images/logo.png" alt="logo Sushi Barito"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="menu collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a href="#service" class="nav-link">Qualité et service</a></li>
+          <li class="nav-item"><a href="#menuDuJour" class="nav-link">Menu du jour</a></li>
+          <li class="nav-item"><a href="#histoire" class="nav-link">Historique</a></li>
+          <li class="nav-item"><a href="#evenements" class="nav-link">Évènements</a></li>
+          <li class="nav-item invisibleItem"><a href="#" class="nav-link"></a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="banniereSushi"></div>
+  </header>
+  <section class="container pt-5" id="bienvenue">
+    <div class="row">
+      <div class="container col-lg-6">
+        <div class="row">
+          <img id="img1Bienvenue" class="col-md-6 img-fluid" src="images/sushi_baguette_portrait.jpg"
+            alt="assiette de sushis avec baguettes">
+          <div class="col-md-6">
+            <div class="container">
+              <div class="row">
+                <img id="img2Bienvenue" class="img-fluid" src="images/assiette_sushi.jpg" alt="assiette de sushis">
+                <img id="img3Bienvenue" class="img-fluid" src="images/sushi_croute.jpg"
+                  alt="assiette de sushis en croûte">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="texteBienvenue col-lg-6">
+        <h1>BIENVENUE CHEZ SUSHI BARITO</h1>
+        <h2>~ Luxe & Qualitée ~</h2>
+        <p>In placerat enim augue. Integer nec dapibus nisi, in vestibulum felis. Vestibulum pellentesque
+          lacus eget mauris malesuada efficitur. Sed vitae ornare mi, et sagittis nulla. Nam et quam consectetur,
+          fermentum mauris ac, vulputate mi. Ut imperdiet neque ante, varius ultricies eros maximus a. Maecenas
+          imperdiet justo dolor, et eleifend turpis imperdiet id. Sed nisl metus, sollicitudin ac dictum id, congue
+          ac erat.
+        </p>
+        <p class="enSavoirPlus">
+          <a href="#">EN SAVOIR PLUS</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid" id="service">
+    <div class="row">
+      <div class=" imgService col-lg-6">
+      </div>
+      <div class="texteService col-lg-6">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-6">
+              <div class="iconeService"><i class="fas fa-utensils"></i></div>
+              <h3>SERVICE</h3>
+              <p>Aenean elementum quam at arcu venenatis feugiat. Sed mollis malesuada erat, sed volutpat elit cursus
+                eget.
+              </p>
+            </div>
+            <div class="col-md-6 order-lg-2">
+              <div class="iconeService"><i class="fas fa-seedling"></i></div>
+              <h3>FRAÎCHEUR</h3>
+              <p>Aenean elementum quam at arcu venenatis feugiat. Sed mollis malesuada erat, sed volutpat elit cursus
+                eget.
+              </p>
+            </div>
+            <div class="col-md-6 order-lg-3">
+              <div class="iconeService"><i class="fas fa-wine-glass"></i></div>
+              <h3>BON VIN</h3>
+              <p>Aenean elementum quam at arcu venenatis feugiat. Sed mollis malesuada erat, sed volutpat elit cursus
+                eget.
+              </p>
+            </div>
+            <div class="col-md-6 order-lg-4">
+              <div class="iconeService"><i class="fas fa-ice-cream"></i></div>
+              <h3>DESSERTS</h3>
+              <p>Aenean elementum quam at arcu venenatis feugiat. Sed mollis malesuada erat, sed volutpat elit cursus
+                eget.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container" id="menuDuJour">
+    <div class="d-flex titreDate">
+      <h1 class="text-center flex-grow-1">SPÉCIALITÉS DU JOUR</h1>
+      <!--rappetisse quand sm ou autre à voir-->
+      <div class="date align-self-center">01-01-2020</div>
+    </div>
+    <div class="row">
+      <div class="colMenu col-md-6">
+        <div class="d-flex">
+          <h2 class="flex-grow-1">Assiettes de sushi</h2>
+          <i class="fas fa-fish align-self-center"></i>
+        </div>
+        <div class="d-flex">
+          <div class="plat">Super Zuppa Toscana</div>
+          <div class="points flex-grow-1"></div>
+          <div class="prix">$40</div>
+        </div>
+        <div class="ingredients">
+          Poulet / Endives / Céleri / Thon
+        </div>
+        <div class="d-flex">
+          <div class="plat">Super Rippa Costa</div>
+          <div class="points flex-grow-1"></div>
+          <div class="prix">$40</div>
+        </div>
+        <div class="ingredients">
+          Poulet / Endives / Céleri / Thon
+        </div>
+        <div class="d-flex">
+          <div class="plat">Hyper avio</div>
+          <div class="points flex-grow-1"></div>
+          <div class="prix">$40</div>
+        </div>
+        <div class="ingredients">
+          Anko / Endives / Céleri / Thon
+        </div>
+        <div class="d-flex">
+          <div class="plat">Le foubraque</div>
+          <div class="points flex-grow-1"></div>
+          <div class="prix">$40</div>
+        </div>
+        <div class="ingredients">
+          Poulet / Endives / Céleri / Thon
+        </div>
+      </div>
+      <div class="colMenu col-md-6">
+        <div class="d-flex">
+          <h2 class="flex-grow-1">Vins</h2>
+          <i class="fas fa-wine-glass align-self-center"></i>
+        </div>
+        <div class="d-flex">
+          <div class="plat">Attems Trebes Collio 2017</div>
+          <div class="points flex-grow-1"></div>
+          <div class="prix">$40</div>
+        </div>
+        <div class="ingredients">
+          Ribolla gialla / Vin Blanc / Italien
+        </div>
+        <div class="d-flex">
+          <div class="plat">Attems Trebes Collio 2018</div>
+          <div class="points flex-grow-1"></div>
+          <div class="prix">$40</div>
+        </div>
+        <div class="ingredients">
+          Ribolla gialla / Vin Blanc / Italien
+        </div>
+        <div class="d-flex">
+          <h2 class="flex-grow-1">Desserts</h2>
+          <i class="fas fa-ice-cream align-self-center"></i>
+        </div>
+        <div class="d-flex dessert1">
+          <div class="plat">Tarte double chocolat</div>
+          <div class="points flex-grow-1"></div>
+          <!--flex-grow 1 à changer pour ici-->
+          <div class="prix">$40</div>
+        </div>
+        <div class="d-flex">
+          <div class="plat">Sushi dessert au fromage</div>
+          <div class="points flex-grow-1"></div>
+          <div class="prix">$26</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid" id="histoire">
+    <div class="row">
+      <div class="imgHistoire col-lg-6 order-lg-2">
+      </div>
+      <div class=" texteHistoire col-lg-6 order-lg-1 text-center">
+        <h2>Notre histoire</h2>
+        <img src="images/border.png" alt="ligne stylée rouge">
+        <p>
+          Vestibulum sed risus pharetra, iaculis magna et, finibus orci. Nullam eu lectus ante. Vestibulum ullamcorper
+          faucibus
+          iaculis. Vestibulum ligula metus, egestas eu ligula rhoncus, finibus volutpat massa. Etiam fermentum vel est
+          ac mattis.
+          In vel leo dictum, porta sem sit amet, pulvinar elit. Ut et rutrum metus. Ut hendrerit rutrum.
+        </p>
+        <span>Loic, Mathis, Félix et Charlie</span>
+        <div>Propriétaires</div>
+      </div>
+
+    </div>
+  </section>
+  <section class="container" id="evenements">
+    <h1>NOS PROCHAINS ÉVÈNEMENTS</h1>
+    <h2>~ Soyez des nôtres! ~</h2>
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <div class="blocEvenements">
+          <div class="imgEvenements">
+            <img src="images/table_sushi.jpg" alt="sushis sur une table">
+          </div>
+          <div class="dateRouge">
+            <div class="dateBorder">
+              <span>20</span>
+              <br>
+              JUIN
+            </div>
+          </div>
+          <div class="blocTexteEvenements">
+            <h3>SOIRÉE COUNTRY</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel diam urna. Nulla facilisi. Suspendisse
+              vehicula lacus a dolor tristique.
+            </p>
+            <p class="enSavoirPlus">
+              <a href="#">EN SAVOIR PLUS</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="blocEvenements">
+          <div class="imgEvenements">
+            <img src="images/sushi_planche.jpg" alt="sushis sur une planche">
+          </div>
+          <div class="dateRouge">
+            <div class="dateBorder">
+              <span>16</span>
+              <br>
+              JUIL.
+            </div>
+          </div>
+          <div class="blocTexteEvenements">
+            <h3>SOIRÉE DANSANTE</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis tellus diam, ut pharetra massa
+              cursus
+              sed. Pellentesque vitae dapibus.
+            </p>
+            <p class="enSavoirPlus">
+              <a href="#">EN SAVOIR PLUS</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="blocEvenements">
+          <div class="imgEvenements">
+            <img src="images/degustation.jpg" alt="table remplie de sushis">
+          </div>
+          <div class="dateRouge">
+            <div class="dateBorder">
+              <span>10</span>
+              <br>
+              SEPT.
+            </div>
+          </div>
+          <div class="blocTexteEvenements">
+            <h3>DÉGUSTATIONS GRATUIT...</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis tellus diam, ut pharetra massa
+              cursus
+              sed. Pellentesque vitae dapibus.
+            </p>
+            <p class="enSavoirPlus">
+              <a href="#">EN SAVOIR PLUS</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="insta">
+    <h1 class="text-center">SUIVEZ NOTRE INSTA</h1>
+    <div id="slide" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#slide" data-slide-to="0" class="active"></li>
+        <li data-target="#slide" data-slide-to="1"></li>
+        <li data-target="#slide" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="imgCarousel col-2">
+              <img src="images/sushi_marbre.jpg" alt="Los Angeles">
+            </div>
+            <div class="imgCarousel col-2">
+              <img src="images/2sushi_main.jpg" alt="Los Angeles">
+            </div>
+            <div class="imgCarousel col-2">
+              <img src="images/sushi_marbre.jpg" alt="Los Angeles">
+            </div>
+            <div class="imgCarousel col-2">
+              <img src="images/2sushi_main.jpg" alt="Los Angeles">
+            </div>
+            <div class="imgCarousel col-2">
+              <img src="images/sushi_marbre.jpg" alt="Los Angeles">
+            </div>
+            <div class="imgCarousel col-2">
+              <img src="images/2sushi_main.jpg" alt="Los Angeles">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="imgCarousel col-2">
+              <img src="images/2sushi_main.jpg" alt="Los Angeles">
+            </div>
+            <div class="imgCarousel col-2">
+              <img src="images/sushi_marbre.jpg" alt="Los Angeles">
+            </div>
+            <div class="imgCarousel col-2">
+              <img src="images/2sushi_main.jpg" alt="Los Angeles">
+            </div>
+            <div class="imgCarousel col-2">
+              <img src="images/sushi_marbre.jpg" alt="Los Angeles">
+            </div>
+            <div class="imgCarousel col-2">
+              <img src="images/2sushi_main.jpg" alt="Los Angeles">
+            </div>
+            <div class="imgCarousel col-2">
+              <img src="images/sushi_marbre.jpg" alt="Los Angeles">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#slide" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#slide" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+  <footer class="container-fluid text-center">
+    <img src="images/logo.png" alt="logo Sushi Barito">
+    <div class="row">
+      <div class="aPropos col-md-4 col-lg-3">
+        <h3>À PROPOS DE NOUS</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent imperdiet tempus felis. Cras sit amet diam
+          tincidunt, pulvinar nibh vel.
+        </p>
+      </div>
+      <div class="col-md-4 col-lg-6">
+        <h3>OBTENEZ DES OFFRES ET NOUVELLES</h3>
+        <div class="infolettre input-group mb-3 mx-auto">
+          <input type="text" class="form-control courriel active" placeholder="Entrez votre courriel" name="email">
+          <div class="input-group-append">
+            <span class="input-group-text enveloppe"><i class="far fa-envelope"></i></span>
+          </div>
+        </div>
+        <div class="reseauxSociaux">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="adresse col-md-4 col-lg-3">
+        <h3>NOTRE ADRESSE</h3>
+        <p>
+          30 Boulevard du Séminaire N.<br>
+          Saint-Jean-sur-Richelieu<br>
+          QC, J3B 5J4<br>
+          450-555-5555<br>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+</html>

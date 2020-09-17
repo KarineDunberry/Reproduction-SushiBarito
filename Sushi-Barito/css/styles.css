@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+
+body
+{
+    color: #636161;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.navbar
+{
+    background-color: #111111;
+}
+
+.navbar-brand > img
+{
+    width: 115px;
+}
+
+.invisibleItem
+{
+    visibility: hidden;
+    width: 115px;
+}
+
+#banniereSushi
+{
+    background-attachment: fixed;
+    background-image: url("../images/banniereSushi.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;   
+}
+
+#bienvenue
+{
+    margin-bottom: 90px;
+    margin-top: 40px;
+}
+
+#img1Bienvenue
+{
+    margin: 20px 0px;
+}
+
+#img2Bienvenue, #img3Bienvenue
+{
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+.texteBienvenue
+{
+    margin-top: 20px;
+}
+
+.enSavoirPlus > a
+{
+    color: #636161;
+    font-size: 0.8em;
+    text-decoration: underline;
+}
+
+h1,span
+{
+    color: black;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+h2
+{
+    color: #a81313;
+    font-family: 'Satisfy', cursive, sans-serif;
+    padding: 20px 0px;
+}
+
+h3
+{
+    color: black;
+    font-family: 'Baloo Tamma 2', cursive, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+p
+{
+    line-height: 1.5;
+}
+
+#service, #menuDuJour, #histoire, #evenements
+{
+    padding-top: 85px;
+}
+
+#menuDuJour, #evenements
+{
+    padding-bottom: 80px;
+}
+
+.texteService, .texteHistoire
+{
+    background-color: #f5f5f5ce;
+    padding: 50px;
+}
+
+.imgService, .imgHistoire
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.imgService
+{
+    background-image: url("../images/mains_cuisine.jpg");
+}
+
+.fa-utensils, .fa-wine-glass, .fa-seedling, .fa-ice-cream, .fa-fish
+{
+    color: #a81313;
+    font-size: 30px;
+}
+
+.iconeService
+{
+    margin-bottom: 20px;
+}
+
+#menuDuJour h1
+{
+    color: #a81313;
+    font-size: 1.8em;
+}
+
+#menuDuJour h2, #menuDuJour i
+{
+    padding: 40px 0px 20px;
+}
+
+#menuDuJour h2, .plat, .prix, .points
+{
+    color: black;
+}
+
+.points
+{
+    border-bottom: 1px dotted black;
+    margin: 0px 5px 6px;
+}
+
+.ingredients
+{
+    color: darkgray;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+.dessert1
+{
+    padding-bottom: 30px;
+}
+
+.date
+{
+    color: black;
+    font-size: 0.7em;
+    font-weight: bold;
+    padding-right: 35px;
+}
+
+.colMenu
+{
+    padding: 0px 30px;
+}
+
+.imgHistoire
+{
+    background-image: url("../images/service.jpg");
+}
+
+#histoire h2
+{
+    font-size: 2.5em;
+    margin-bottom: -10px;
+    padding: 0px;
+}
+
+#histoire p
+{
+    margin: 50px 60px 50px;
+}
+
+#evenements h1, #evenements h2
+{
+    text-align: center;
+}
+
+#evenements h3
+{
+    color: #3d3c3c;
+    font-family: 'Baloo Tamma 2', cursive, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.blocEvenements
+{
+    margin-top: 40px;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+}
+
+.blocEvenements img:hover
+{
+    transform: scale(1.1);
+}
+
+.blocEvenements img
+{
+    width: 100%;
+}
+
+.imgEvenements
+{
+    overflow: hidden;  
+}
+
+.blocTexteEvenements
+{
+    border: 1px solid lightgray;
+    border-top: none;
+    padding: 30px; 
+}
+
+.dateRouge, .dateBorder
+{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 10;
+}
+
+.dateRouge
+{
+    background-color: #a81313;
+    height: 70px;
+    padding: 40px;
+    width: 70px;
+}
+
+.dateBorder
+{
+    color: white;
+    background-color: #a81a1af3;
+    border: 1px solid white;
+    font-family: 'Baloo Tamma 2', cursive, Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    height: 60px;
+    line-height: 1;
+    padding: 8px;
+    text-align: center;
+    width: 60px;
+}
+
+.dateBorder > span
+{
+    color: white;
+    font-size: 2.5em;
+}
+
+#insta h1
+{
+    font-size: 1.5em;
+    padding: 40px 0px;
+}
+
+.carousel-inner img
+{
+    max-width: 100%;
+}
+
+.carousel-inner .imgCarousel
+{
+    padding: 0px;
+}
+
+/*.mentions  enlever height width background
+{
+    background: black;
+    height: 100px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    z-index: 4;
+}*/
+
+footer
+{
+    background-color: #252525;
+    color: white;
+    font-size: 0.8em;
+    padding-bottom: 50px;
+    padding-top: 90px;
+}
+
+footer img
+{
+    margin-bottom: 50px;
+}
+
+footer h3
+{
+    color: white;
+}
+
+footer .aPropos
+{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.infolettre
+{
+    margin-top: 30px;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.courriel
+{
+    border-radius: 50px 0px 0px 50px;
+}
+
+.enveloppe
+{
+    border-radius: 0px 50px 50px 0px;
+}
+
+.courriel, .enveloppe
+{
+    background-color: #252525;
+}
+
+.courriel:valid
+{
+    background-color: #252525;
+    border: 1px solid lightgray;
+    box-shadow: none;
+    color: lightgray;
+}
+
+.fa-envelope, .reseauxSociaux
+{
+    color: darkgray;
+}
+
+.fa-twitter, .fa-facebook-square, .fa-linkedin-in, .fa-instagram
+{
+    font-size: 1.8em;
+    margin: 10px;
+}
+
+.aPropos, .reseauxSociaux
+{
+    padding-bottom: 40px;
+}
+
+
+
+@media (max-width: 991px)
+{
+    #banniereSushi
+    {
+        display: none;
+    }
+
+    .imgService, .imgHistoire
+    {
+        height: 450px;
+    }
+}
